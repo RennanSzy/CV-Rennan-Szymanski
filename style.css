@@ -1,0 +1,108 @@
+
+/* Define fonte, margem, espaçamentos e cor do fundo das página */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Cor de fundo do menu*/
+
+nav {
+  background-color: rgb(0, 84, 77);;
+}
+
+/* Para espaçar as opções do menu */
+
+nav li {
+  margin: 0 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo dos itens do menu */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Para aplicar sublinhado quando o mouse fica encima da seleção */
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estiliza a parte principal da página */
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+/* Para centralizar o texto principal */
+
+main h1 {
+  text-align: center;
+}
+
+/* Aumenta o espaçamento entre linhas */
+
+main p {
+  line-height: 1.8;
+}
+
+/* Para deixar o formulário na direção de colunas*/
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo dos campos de texto e mensagem */
+
+form input, form textarea {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+/* Estilo botão de envio */
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgb(0, 84, 77);
+  color: #fff;
+  border: none;
+  cursor: pointer;               /* modifica o cursor */
+}
+
+/* Espaço entre campos formulário */
+
+form label {
+  margin-top: 10px;
+}
+
+/* Estilização e fixação do rodapé da página */
+
+footer {
+  text-align: center;
+  padding: 1px;
+  background-color: rgb(0, 84, 77);
+  color: rgb(250, 215, 22);
+  position: fixed;              /* parte que fixa o rodapé */
+  width: 100%;
+  bottom: 0;
+}
